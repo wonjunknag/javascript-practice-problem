@@ -1,0 +1,28 @@
+@import url("style.css");
+
+.main {
+  flex-direction: column;
+}
+
+.main__text-outPut {
+  font-size: 4rem;
+  padding: 50px;
+}
+
+.main__text-inPut {
+  position: absolute;
+  bottom: 170px;
+}
+.main__text-inPut input {
+  font-size: 1.2rem;
+  border-radius: 10px;
+  border-style: none;
+  width: 400px;
+  height: 50px;
+  padding: 20px;
+  box-shadow: 2px 2px 2px 2px #a8c0ff;
+}
+
+.main__text-inPut input:focus {
+  outline: none;
+}
