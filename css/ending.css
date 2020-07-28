@@ -26,3 +26,13 @@
 .main__text-inPut input:focus {
   outline: none;
 }
+
+.main__text-btn {
+  background-color: #a8c0ff;
+  padding: 15px;
+  margin-left: 10px;
+  border-radius: 5px;
+  border: 1px solid white;
+  outline-style: none;
+}
+
