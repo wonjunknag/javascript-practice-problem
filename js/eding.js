@@ -8,7 +8,13 @@ const endingForm = document.getElementById("endingForm");
 const timeBar = document.getElementById("timeBar");
 wordView.textContent = "제로초";
 
-
+setInterval(() => {
+    timeBar.value = timeBar.value - 1;
+    if (timeBar.value === 0){
+        alert("d");
+        
+    }
+}, 1000);
 
 
 endingForm.addEventListener("submit", (e)=>{
