@@ -1,20 +1,17 @@
 @import url("style.css");
 
-.main {
-  flex-direction: column;
-}
 
 .main__text-outPut {
-  font-size: 4rem;
+  font-size: 50px;
   padding: 50px;
 }
 
 .main__text-inPut {
   position: absolute;
-  bottom: 170px;
+  bottom: 0;
 }
 .main__text-inPut input {
-  font-size: 1.2rem;
+  font-size: 20px;
   border-radius: 10px;
   border-style: none;
   width: 400px;
@@ -36,3 +33,16 @@
   outline-style: none;
 }
 
+@media screen and (max-width:768px){
+  .main__text-inPut input {
+    font-size: 10px;
+    width: 200px;
+    height: 25px;
+    padding: 10px;
+  }
+  .main__text-btn {
+    font-size: 5px;
+    padding: 5px;
+    margin-left: 10px;
+  }
+}

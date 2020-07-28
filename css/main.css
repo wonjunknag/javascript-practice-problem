@@ -4,27 +4,6 @@ a {
   color: var(--white-color);
 }
 
-.header {
-  display: flex;
-  justify-content: center;
-  padding-top: 100px;
-}
-
-.header__textbox {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-shadow: 10px 5px 2px gray;
-}
-
-.header__textbox i {
-  padding-bottom: 10px;
-  font-size: 3.5rem;
-}
-
-.header__textbox strong {
-  font-size: 5rem;
-}
 
 .main__items-item li {
   display: flex;
@@ -46,4 +25,10 @@ a {
 .main__items-item li > a {
   font-size: 2rem;
   color: black;
+}
+
+@media screen and (max-width:768px){
+  .main__items-item li{
+    width: 300px;
+  }
 }
