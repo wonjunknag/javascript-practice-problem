@@ -1,6 +1,5 @@
 @import url("style.css");
 
-
 .main__text-outPut {
   font-size: 50px;
   padding: 50px;
@@ -8,7 +7,7 @@
 
 .main__text-inPut {
   position: absolute;
-  bottom: 0;
+  bottom: 100px;
 }
 .main__text-inPut input {
   font-size: 20px;
@@ -33,16 +32,16 @@
   outline-style: none;
 }
 
-@media screen and (max-width:768px){
+@media screen and (max-width: 768px) {
   .main__text-inPut input {
-    font-size: 10px;
-    width: 200px;
-    height: 25px;
+    font-size: 20px;
+    width: 270px;
+    height: 40px;
     padding: 10px;
   }
   .main__text-btn {
-    font-size: 5px;
-    padding: 5px;
+    font-size: 12px;
+    padding: 10px;
     margin-left: 10px;
   }
 }
